@@ -18,7 +18,7 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 
-add_executable(SetContainer rbtree.hpp set_container.hpp set_container.h tests.cpp)
+add_executable(SetContainer rbtree.hpp set_container.hpp tests.cpp)
 target_link_libraries(
         SetContainer
         GTest::gtest_main
